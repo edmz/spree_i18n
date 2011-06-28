@@ -9,7 +9,7 @@ es:
   account: Cuenta
   account_updated: "Cuenta actualizada!"
   action: Acción
-  actions: Acciones
+  actions: 
     cancel: Cancelar
     create: Crear
     destroy: Eliminar
@@ -19,8 +19,8 @@ es:
     update: Actualizar
   active: "Activo"
   activerecord: 
-    attributes: Atributos
-      address: Dirección
+    attributes: 
+      address:
         address1: Dirección
         address2: Colonia
         city: Ciudad
@@ -33,7 +33,7 @@ es:
         state: Estado
         zipcode: "Código postal"
       checkout: 
-        bill_address: Dirección de Facturación
+        bill_address:
           address1: Dirección
           address2: Colonia
           city: Ciudad
@@ -42,7 +42,7 @@ es:
           phone: Teléfono
           state: Estado
           zipcode: Código postal
-        ship_address: Dirección de Envío
+        ship_address: 
           address1: Dirección
           address2: Colonia
           city: Ciudad
@@ -51,13 +51,13 @@ es:
           phone: Teléfono
           state: Estado
           zipcode: código postal
-      country: País
+      country:
         iso: ISO
         iso3: ISO3
         iso_name: "Nombre ISO"
         name: Nombre
         numcode: "Codigo ISO"
-      creditcard: Tarjeta de crédito
+      creditcard:
         cc_type: Tipo de tarjeta
         month: Mes
         number: Número
@@ -68,7 +68,7 @@ es:
       line_item: 
         price: Precio
         quantity: Cantidad
-      order: Pedido
+      order:
         checkout_complete: "Pedido completado"
         completed_at: "Completada en"
         coupon_code: "Cupón de promoción"
@@ -78,7 +78,7 @@ es:
         special_instructions: "Instrucciones especiales"
         state: Estado
         total: Total
-      product: Producto
+      product:
         available_on: "Disponible en"
         cost_price: "Costo (precio)"
         description: Descripción
@@ -87,48 +87,48 @@ es:
         on_hand: En inventario
         shipping_category: Tipo de envío
         tax_category: Tipo de Impuesto
-      product_group: Grupos de productos
+      product_group:
         name: Nombre
         product_count: Conteo de productos
         product_scopes: Gama de productos
         products: Productos
         url: "URL"
-      product_scope: Gama de productos
-        arguments: Argumentos	
+      product_scope:
+        arguments: Argumentos
         description: Descripción
-      promotion: Promoción
+      promotion:
         code: Código
         description: Descripción
         expires_at: Vence el 
         name: Nombre
         starts_at: Inicia el
         usage_limit: Limite de uso
-      property: Propiedades
+      property: 
         name: Nombre
         presentation: Presentación
-      prototype: Conjunto de Propiedades/Opciones
+      prototype: 
         name: Nombre
       return_authorization: 
         amount: Monto
       role: 
         name: Nombre
-      state: Estado
+      state: 
         abbr: Abreviatura
         name: Nombre
-      tax_category: Tipos de impuestos
+      tax_category:
         description: Descripción
         name: Name
       tax_rate: 
         amount: Tasa
-      taxon: Subcategoría
+      taxon: 
         name: Nombre
         permalink: Enlace
         position: Posición
-      taxonomy: Categorías
+      taxonomy:
         name: Nombre
-      user: Usario
+      user: 
         email: Email
-      variant: Variante
+      variant: 
         cost_price: "Cost Price"
         depth: Profundidad
         height: Altura
@@ -136,7 +136,7 @@ es:
         sku: SKU
         weight: Peso
         width: Ancho
-      zone: Zona
+      zone: 
         description: Descripción
         name: Nombre
     models: 
@@ -408,7 +408,7 @@ es:
       no_shipping_methods_available: "No shipping methods available for selected location, please change your address and try again."
   errors_prohibited_this_record_from_being_saved: 
     one: Error. No se fue posible gruardar.
-    other: "%{count} Errores. No se fue posible gruardar.
+    other: "%{count} Errores. No se fue posible gruardar."
   event: Evento
   existing_customer: "Cliente existente"
   expiration: "Expiración"
@@ -456,7 +456,7 @@ es:
   history: Historia
   home: "Inicio"
   icon: Ícono
-  icons_by: "Icons por"
+  icons_by: "Iconos por"
   image: Imágen
   images: Imágenes
   images_for: Imágenes para
@@ -549,7 +549,7 @@ es:
   new_product_group: Nuevo grupo de productos
   new_promotion: Nueva Promoción
   new_property: "Nueva propiedad"
-  new_prototype: "Nuevo Conjunto de Propiedades/Opciones
+  new_prototype: "Nuevo Conjunto de Propiedades/Opciones"
   new_return_authorization: New Return Authorization
   new_shipment: Nuevo embarque
   new_shipping_category: "Nueva categoria de envío"
@@ -601,9 +601,9 @@ es:
   order_details: "Detalles del pedido"
   order_email_resent: "Email de pedido reenviado"
   order_mailer: 
-    cancel_email: Email de Cancelación
+    cancel_email: 
       subject: Cancelación de su Orden
-    confirm_email: Email de Confirmación
+    confirm_email: 
       subject: Confirmación de su Orden
   order_not_in_system: El número de orden no es válido para nuestra tienda.
   order_number: "Pedido #"
@@ -619,7 +619,7 @@ es:
     cart: Mi Carrito
     complete: Finalizada
     confirm: confirmar
-    delivery: Engrega 	 	
+    delivery: Engrega
     payment: Pago
     resumed: reiniciado
     returned: regreso
@@ -749,7 +749,7 @@ es:
       in_taxons: 
         args: 
           "taxon_names": Nombres de Subcategorías
-        description: Escribe las subcategorías separas por coma. (Ejemplo: Marca1, Marca2)
+        description: "Escribe las subcategorías separas por coma. (Ejemplo: Marca1, Marca2)"
         name: En subcategorías
         sentence: en<em>%s</em> y todas sus ramas.
       master_price_gte: 
@@ -844,7 +844,7 @@ es:
   provider: Proveedor
   provider_settings_warning: Si estás cambiando el tipo de proveedor, primero lo tienes que grabar antes de poderlo editar.
   qty: Cant.
-  quantity_returned: Cantidad Regresada	
+  quantity_returned: Cantidad Regresada
   quantity_shipped: Cantidad Embarcada
   range: Rango
   rate: Tarifa
@@ -896,7 +896,7 @@ es:
   secure_connection_type: Tipo de conexió segura
   secure_creditcard: Tarjeta de crédito segura
   select: Seleccionar
-  select_from_prototype: "Seleccionar de los Conjntos Porpiedades/Opciones)
+  select_from_prototype: "Seleccionar de los Conjntos Porpiedades/Opciones)"
   select_preferred_shipping_option: "Seleccionar la opcion de envío preferída"
   send_copy_of_all_mails_to: Enviar una copia de todos los correos a
   send_copy_of_orders_mails_to: Enviar una copia de todos los correos de órdenes a
@@ -945,7 +945,7 @@ es:
   show_only_complete_orders: "Mostrar pedidos completados"
   show_out_of_stock_products: "Mostrar productos agotados"
   show_price_inc_vat: Mostar precio con IVA incluido
-  showing_first_n: Mostrar primeros %{n}"
+  showing_first_n: "Mostrar primeros %{n}"
   sign_up: Registrarme
   site_name: "Nombre de la tienda"
   site_url: "URL del sitio"
@@ -962,13 +962,13 @@ es:
   sold: Agotado
   sort_ordering: Orden
   special_instructions: Instrucciones especiales
-  spree: pagoselectronicos.mx
+  spree: 
     date: Fecha
     time: Hora
   spree_gateway_error_flash_for_checkout: Error en su forma de pago, verifique sus datos de nuevo.
-  ssl_will_be_used_in_development_and_test_modes: "SSL será usado en módo de desarrollo en caso de ser necesario
-  ssl_will_be_used_in_production_mode: "SSL será usado en ambiente de producción
-  ssl_will_not_be_used_in_development_and_test_modes: "SSL no será usado en modo de producción o de prueba
+  ssl_will_be_used_in_development_and_test_modes: "SSL será usado en módo de desarrollo en caso de ser necesario"
+  ssl_will_be_used_in_production_mode: "SSL será usado en ambiente de producción"
+  ssl_will_not_be_used_in_development_and_test_modes: "SSL no será usado en modo de producción o de prueba"
   ssl_will_not_be_used_in_production_mode: "SSL will not be used in production mode"
   start: Inicio
   start_date: Fecha de inicio
@@ -983,9 +983,9 @@ es:
   street_address_2: "Dirección (continuación)"
   subtotal: Subtotal
   subtract: Restar
-  successfully_created: %{resource} se ha creado exitosamente
-  successfully_removed: %{resource} ha sido borrado exitosamente
-  successfully_updated: %{resource} ha sido actualizado exitosamente
+  successfully_created: "%{resource} se ha creado exitosamente"
+  successfully_removed: "%{resource} ha sido borrado exitosamente"
+  successfully_updated: "%{resource} ha sido actualizado exitosamente"
   system: Sistema
   tax: Impuestos
   tax_categories: "Categorias"
@@ -1019,7 +1019,7 @@ es:
   total: Total
   tracking: Seguimiento
   transaction: Transacción
-  transactions: Transacciones 	
+  transactions: Transacciones
   tree: Arbol
   try_again: "Volver a intentar"
   type: Tipo
