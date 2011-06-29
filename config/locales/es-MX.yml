@@ -312,7 +312,7 @@ es-MX:
   charge_total: Total
   charged: Cargado
   charges: Charges
-  checkout: Finaliza Tu Compra
+  checkout: Finaliza tu Compra
   cheque: Cheque
   city: Ciudad
   clone: Clonar
@@ -363,7 +363,7 @@ es-MX:
   didnt_receive_confirmation_instructions: "Didn't receive confirmation instructions?"
   didnt_receive_unlock_instructions: "Didn't receive unlock instructions?"
   discount_amount: "Discount Amount"
-  display: Vista tienda
+  display: Texto que se muestra en la tienda
   edit: Editar
   edit_general_settings: "Edit General Settings"
   editing_billing_integration: Editing Billing Integration
@@ -371,24 +371,24 @@ es-MX:
   editing_mail_method: Editando métodos de envío de email
   editing_option_type: "Editando tipo de opción"
   editing_option_types: "Editando tipos de opción"
-  editing_payment_method: Editing formas de pago
+  editing_payment_method: Editando formas de pago
   editing_product: "Editando Producto"
   editing_product_group: "Editando grupo de producto"
   editing_promotion: Editando promociones
   editing_property: "Editando Propiedades"
   editing_prototype: "Editando conjunto de propiedades/opciones"
-  editing_shipping_category: "Editando Tipos de Envío"
+  editing_shipping_category: "Editando tipos de Envío"
   editing_shipping_method: "Editando método de envío"
   editing_state: "Editando estado"
   editing_tax_category: "Editando tipo de impuesto"
-  editing_tax_rate: "Editando tasa de impiuesto"
-  editing_tracker: Editando el Tracker
+  editing_tax_rate: "Editando tasa de impuesto"
+  editing_tracker: Editando Tracker
   editing_user: "Editando usuario"
   editing_zone: "Editando zona"
-  email: "Correo Electrónico registrado"
+  email: "Correo Electrónico"
   email_address: "Dirección de Correo Electrónico"
   email_server_settings_description: "Configuración del servidor de correo electrónico"
-  empty: Vacío
+  empty: vacío
   empty_cart: "Vaciar Mi Carrito"
   enable_login_via_login_password: Usar correo electrónico/contraseña
   enable_login_via_openid: Usar OpenID
@@ -403,8 +403,8 @@ es-MX:
       could_not_create_taxon: No se pudo crear la Subcategoría
       no_shipping_methods_available: "No shipping methods available for selected location, please change your address and try again."
   errors_prohibited_this_record_from_being_saved: 
-    one: Revisar la información. No se fue posible gruardar los datos
-    other: "Revisar la información. No se fue posible gruardar los datos"
+    one: No fue posible continuar
+    other: No fue posible continuar
   event: Evento
   existing_customer: "Cliente existente"
   expiration: "Expiración"
@@ -419,7 +419,7 @@ es-MX:
   finalized_payments: Pagos completados
   first_item: Costo del primer artículo
   first_name: Nombre
-  first_name_begins_with: Nombre inicia con
+  first_name_begins_with: Inicial del nombre
   flat_percent: Porcentaje Fijo
   flat_rate_amount: Amount
   flat_rate_per_item: Tarifa Fija (por producto)
@@ -450,7 +450,7 @@ es-MX:
   height: Altura
   hello_user: Hola
   history: Historia
-  home: "Ir a Página Principal"
+  home: "Inicio"
   icon: Ícono
   icons_by: "Iconos por"
   image: Imágen
@@ -610,11 +610,11 @@ es-MX:
     # keys correspond to Checkout state names: 
     address: Dirección
     adjustments: Ajustes
-    awaiting_return: Esperando Respuesta
+    awaiting_return: Esperando devolución
     canceled: Cancelado
-    cart: Mi Carrito
+    cart: En Carrito
     complete: Resumen
-    confirm: confirmar
+    confirm: Confirmar
     delivery: Engrega
     payment: Pago
     resumed: reiniciado
@@ -648,15 +648,15 @@ es-MX:
   payment_information: "Información del pago"
   payment_method: Método de Pago
   payment_methods: Métodos de Pago
-  payment_methods_setting_description: Configura los Métodos de Pago para tus clientes (no mover)
-  payment_processing_failed: Tu pago no ha podidos ser procesado, porfavor revisa tus datos.
+  payment_methods_setting_description: Configura los Métodos de pago para tus clientes (no mover)
+  payment_processing_failed: Tu pago no ha podidos ser procesado, por favor revisa tus datos.
   payment_state: Status del Pago
   payment_states: 
     balance_due: Por pagar
     checkout: checkout
     completed: Completado
     credit_owed: credit owed
-    failed: Fallo
+    failed: Falló
     paid: Pagado
     pending: Pendiente
     processing: En proceso
@@ -669,7 +669,7 @@ es-MX:
   place_order: Colocar Orden
   please_create_user: Por favor crea una cuenta.
   powered_by: "Comercio electrónico por"
-  presentation: Presentación
+  presentation: Nombre que ve el cliente en la tienda
   preview: Vista previa
   previous: Anterior
   price: Precio
@@ -859,7 +859,7 @@ es-MX:
   resend: Volver a enviar
   resend_confirmation_instructions: Volver a enviar instrucciones de confirmación.
   resend_unlock_instructions: Volver a enviar instrucciónes para desbloquear.
-  reset_password: "Recuperar mi contraseña"
+  reset_password: "Actualizar mi contraseña"
   resource_controller: 
     member_object_not_found: Objeto no encontrado.
     successfully_created: Creado exitosamente!
@@ -913,7 +913,7 @@ es-MX:
   shipment_state: Status del Envío
   shipment_states: 
     backorder: En lista de espera
-    partial: Parcial
+    partial: Envío Parcial
     pending: Pendiente
     ready: Listo para enviarse
     shipped: Enviado
@@ -950,8 +950,8 @@ es-MX:
   smtp_authentication_type: Tipo de autenticación SMTP
   smtp_domain: Dominio SMTP
   smtp_mail_host: SMTP Mail Host
-  smtp_password: contraseña SMTP
-  smtp_port: puerto SMTP
+  smtp_password: Contraseña SMTP
+  smtp_port: Puerto SMTP
   smtp_send_all_emails_as_from_following_address: Enviar todos los correos electrónicos desde la siguiente dirección.
   smtp_send_copy_to_this_addresses: Enviar una copia de todos los emails enviados a la siguiente dirección. Para agregar vairas direcciones, separarlas por coma.
   smtp_username: Nombre de usuario SMTP
@@ -961,19 +961,19 @@ es-MX:
   spree: 
     date: Fecha
     time: Hora
-  spree_gateway_error_flash_for_checkout: Error en su forma de pago, verifique sus datos de nuevo.
-  ssl_will_be_used_in_development_and_test_modes: "SSL será usado en módo de desarrollo en caso de ser necesario"
-  ssl_will_be_used_in_production_mode: "SSL será usado en ambiente de producción"
-  ssl_will_not_be_used_in_development_and_test_modes: "SSL no será usado en modo de producción o de prueba"
-  ssl_will_not_be_used_in_production_mode: "SSL will not be used in production mode"
+  spree_gateway_error_flash_for_checkout: Error en su forma de pago, verifique sus datos.
+  ssl_will_be_used_in_development_and_test_modes: "SSL será usado en módo de desarrollo y pureba"
+  ssl_will_be_used_in_production_mode: "SSL será usado en modo de producción"
+  ssl_will_not_be_used_in_development_and_test_modes: "SSL no será usado en modo de producción y de prueba"
+  ssl_will_not_be_used_in_production_mode: "SSL no será usado en modo de producción"
   start: Inicio
   start_date: Fecha de inicio
   state: Estado
   state_based: Estado Base
   state_setting_description: "Administrar la lista de estados asociados con cada país."
   states: Estado
-  status: Estado
-  stop: Detener
+  status: Status
+  stop: Fin
   store: Tienda
   street_address: Dirección
   street_address_2: "Dirección (continuación)"
