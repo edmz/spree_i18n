@@ -25,9 +25,9 @@ es-MX:
         address2: Colonia
         city: Ciudad
         country: País
-        first_name_begins_with: Nombre inicia con
+        first_name_begins_with: Inicial del nombre
         firstname: Nombre
-        last_name_begins_with: Apellido inicia con
+        last_name_begins_with: Inicial del apellido
         lastname: Apellido
         phone: Teléfono
         state: Estado
@@ -231,7 +231,7 @@ es-MX:
   add_state: Agregar un Estado
   add_to_cart: Agregar a Mi Carrito
   add_zone: Añadir zona
-  additional_item: Costo adicional
+  additional_item: Artículo adicional
   address: Dirección
   address_information: "Información de la Dirección"
   adjustment: Ajuste
@@ -240,7 +240,7 @@ es-MX:
   administration: Administración
   all: Todo
   all_departments: Todas las Categorías
-  allow_backorders: "Permitir devoluciones"
+  allow_backorders: "Permitir lista de espera (backorder)"
   allow_ssl_to_be_used_when_in_developement_and_test_modes: Permitir el uso de SSL en los modos de desarrollo y prueba.(no mover)
   allow_ssl_to_be_used_when_in_production_mode: Permitir el uso de SSL en producción. (no mover)
   allowed_ssl_in_production_mode: "SSL will %{not} be used in production"
@@ -279,8 +279,8 @@ es-MX:
   back: Atrás
   back_end: Panel de Administración
   back_to_store: "Volver a la tienda"
-  backordered: Lista de espera
-  backordering_is_allowed: "Lista de espera %{not} está permitido"
+  backordered: Lista de espera (backorder)
+  backordering_is_allowed: "Ordenar en lista de espera (backorder) %{not}"
   balance_due: Saldo
   best_selling_products: Productos más Vendidos
   best_selling_taxons: Subcategorías más vendidas
@@ -469,11 +469,11 @@ es-MX:
   inventory_adjustment: "Ajuste de inventario"
   inventory_setting_description: "Configuración del inventario, Devoluciones, mostrar articulos sin inventario"
   inventory_settings: "Configuración del inventario"
-  is_not_available_to_shipment_address: no está disponible para la dirección de embarque
+  is_not_available_to_shipment_address: No está disponible para la dirección de embarque
   issue_number: Número de caso
   item: Artículo
   item_description: "Descripción del artículo"
-  item_total: "Productos"
+  item_total: "Sub-total"
   item_total_rule: 
     operators: 
       gt: mayor que
@@ -484,7 +484,7 @@ es-MX:
   last_7_days: Últimos 7 días
   last_month: Último mes
   last_name: Apellidos
-  last_name_begins_with: Tu apellido inicia con
+  last_name_begins_with: Inicial del apellido
   last_year: Año pasado
   leave_blank_to_not_change: "(Dejar en blanco si no deseas cambiarlo)"
   list: Lista
@@ -617,9 +617,9 @@ es-MX:
     confirm: Confirmar
     delivery: Engrega
     payment: Pago
-    resumed: reiniciado
-    returned: regreso
-  order_summary: Resumen de Mi Orden
+    resumed: Reanudado
+    returned: Devuelto
+  order_summary: Mi Orden
   order_sure_want_to: "¿Está seguro de quieres %{event} ésta órden?"
   order_total: "Total"
   order_total_message: "El importe total cargado a su tarjeta será"
@@ -812,7 +812,7 @@ es-MX:
         name: "With property value"
         sentence: with property <em>%s</em> and value <em>%s</em>
   products: Productos
-  products_with_zero_inventory_display: Productos agotados no se mostrarán en la tienda.
+  products_with_zero_inventory_display: Los productos agotados no se mostrarán en la tienda.
   promotion: Promoción
   promotion_form: 
     match_policies: 
@@ -856,7 +856,7 @@ es-MX:
   remove: "Borrar"
   reports: Reportes
   required_for_solo_and_maestro: Required for Solo and Maestro cards.
-  resend: Volver a enviar
+  resend: Reenviar email
   resend_confirmation_instructions: Volver a enviar instrucciones de confirmación.
   resend_unlock_instructions: Volver a enviar instrucciónes para desbloquear.
   reset_password: "Actualizar mi contraseña"
@@ -887,7 +887,7 @@ es-MX:
   scope: Gama
   scopes: Gamas
   search: Buscar
-  search_results: Resultados de bucar '%{keywords}'
+  search_results: Resultados de buscar '%{keywords}'
   searching: Buscando
   secure_connection_type: Tipo de conexió segura
   secure_creditcard: Tarjeta de crédito segura
@@ -971,13 +971,13 @@ es-MX:
   state: Estado
   state_based: Estado Base
   state_setting_description: "Administrar la lista de estados asociados con cada país."
-  states: Estado
+  states: Estados
   status: Status
   stop: Fin
   store: Tienda
   street_address: Dirección
-  street_address_2: "Dirección (continuación)"
-  subtotal: Subtotal
+  street_address_2: "Colonia"
+  subtotal: Sub-total
   subtract: Restar
   successfully_created: "%{resource} se ha creado exitosamente"
   successfully_removed: "%{resource} ha sido borrado exitosamente"
