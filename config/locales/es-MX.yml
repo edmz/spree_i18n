@@ -932,7 +932,7 @@ es-MX:
   shipping_methods: "Método de envío"
   shipping_methods_description: "Administra métodos de envío"
   shipping_total: "Envío"
-  shop_by_taxonomy: "Por %{taxonomy}"
+  shop_by_taxonomy: "%{taxonomy}"
   shopping_cart: Mi Carrito de Compras
   show: Mostrar
   show_active: Mostrar Activos
